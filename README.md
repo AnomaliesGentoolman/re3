@@ -4,8 +4,7 @@
 <a href="https://discord.gg/UM8M9kvyKs"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a>
 
 ## Intro
-
-In this repository you'll find the fully reversed source code for GTA III ([re3](https://github.com/yungDoom/re3/tree/re3/) branch) and GTA VC ([reVC](https://github.com/yungDoom/re3/tree/reVC/) branch).
+In this repository you'll find the fully reversed source code for GTA III ([re3](https://github.com/yungDoom/re3/tree/re3/) branch) and GTA Vice City ([reVC](https://github.com/yungDoom/re3/tree/reVC/) branch).
 
 It has been tested and works on Windows, Linux, MacOS and FreeBSD, on x86, amd64, arm and arm64.\
 Rendering is handled either by original RenderWare (D3D8)

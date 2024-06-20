@@ -1,6 +1,6 @@
 <img src="https://github.com/yungDoom/re3/blob/re3/res/images/logo_1024.png?raw=true" alt="re3 logo" width="200">
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FGTAmodding%2Fre3%2Fbadge%3Fref%3Dmaster&style=flat)](https://actions-badge.atrox.dev/GTAmodding/re3/goto?ref=re3)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FyungDoom%2Fre3%2Fbadge%3Fref%3Dre3&style=flat)](https://actions-badge.atrox.dev/yungDoom/re3/goto?ref=re3)
 <a href="https://discord.gg/UM8M9kvyKs"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a>
 
 ## Intro
@@ -22,11 +22,11 @@ We cannot build for PS2 or Xbox yet. If you're interested in doing so, get in to
 
 - re3 requires PC game assets to work, so you **must** own [a copy of GTA III](https://store.steampowered.com/app/12100/Grand_Theft_Auto_III/).
 - Build re3 or download the latest build:
-  - [Windows D3D9 MSS 32bit](https://nightly.link/GTAmodding/re3/workflows/re3_msvc_x86/re3/re3_Release_win-x86-librw_d3d9-mss.zip)
-  - [Windows D3D9 64bit](https://nightly.link/GTAmodding/re3/workflows/re3_msvc_amd64/re3/re3_Release_win-amd64-librw_d3d9-oal.zip)
-  - [Windows OpenGL 64bit](https://nightly.link/GTAmodding/re3/workflows/re3_msvc_amd64/re3/re3_Release_win-amd64-librw_gl3_glfw-oal.zip)
-  - [Linux 64bit](https://nightly.link/GTAmodding/re3/workflows/build-cmake-conan/re3/ubuntu-18.04-gl3.zip)
-  - [MacOS 64bit x86-64](https://nightly.link/GTAmodding/re3/workflows/build-cmake-conan/re3/macos-latest-gl3.zip)
+  - [Windows D3D9 MSS 32bit](https://nightly.link/yungDoom/re3/workflows/re3_msvc_x86/re3/re3_Release_win-x86-librw_d3d9-mss.zip)
+  - [Windows D3D9 64bit](https://nightly.link/yungDoom/re3/workflows/re3_msvc_amd64/re3/re3_Release_win-amd64-librw_d3d9-oal.zip)
+  - [Windows OpenGL 64bit](https://nightly.link/yungDoom/re3/workflows/re3_msvc_amd64/re3/re3_Release_win-amd64-librw_gl3_glfw-oal.zip)
+  - [Linux 64bit](https://nightly.link/yungDoom/re3/workflows/build-cmake-conan/re3/ubuntu-18.04-gl3.zip)
+  - [MacOS 64bit x86-64](https://nightly.link/yungDoom/re3/workflows/build-cmake-conan/re3/macos-latest-gl3.zip)
 - Extract the downloaded zip over your GTA 3 directory and run re3. The zip includes the binary, updated and additional gamefiles and in case of OpenAL the required dlls.
 
 ## Screenshots
@@ -76,7 +76,7 @@ The following things would be nice to have/do:
 * Fix physics for high FPS
 * Improve performance on lower end devices, especially the OpenGL layer on the Raspberry Pi (if you have experience with this, please get in touch)
 * Compare code with PS2 code (tedious, no good decompiler)
-* [PS2 port](https://web.archive.org/web/20210217192931/https://github.com/GTAmodding/re3/wiki/PS2-port)
+* [PS2 port](https://web.archive.org/web/20210217192931/https://github.com/yungDoom/re3/wiki/PS2-port)
 * Xbox port (not quite as important)
 * reverse remaining unused/debug functions
 * compare CodeWarrior build with original binary for more accurate code (very tedious)
@@ -101,7 +101,7 @@ Clone the repository with `git clone --recursive https://github.com/yungDoom/re3
 
 <details><summary>Linux Premake</summary>
 
-For Linux using premake, proceed: [Building on Linux](https://web.archive.org/web/20210217192751/https://github.com/GTAmodding/re3/wiki/Building-on-Linux)
+For Linux using premake, proceed: [Building on Linux](https://web.archive.org/web/20210217192751/https://github.com/yungDoom/re3/wiki/Building-on-Linux)
 
 </details>
 
@@ -119,13 +119,13 @@ conan build .. -if build -bf build -pf package
 
 <details><summary>MacOS Premake</summary>
 
-For MacOS using premake, proceed: [Building on MacOS](https://web.archive.org/web/20210717004757/https://github.com/GTAmodding/re3/wiki/Building-on-MacOS)
+For MacOS using premake, proceed: [Building on MacOS](https://web.archive.org/web/20210717004757/https://github.com/yungDoom/re3/wiki/Building-on-MacOS)
 
 </details>
 
 <details><summary>FreeBSD</summary>
 
-For FreeBSD using premake, proceed: [Building on FreeBSD](https://web.archive.org/web/20210217192740/https://github.com/GTAmodding/re3/wiki/Building-on-FreeBSD)
+For FreeBSD using premake, proceed: [Building on FreeBSD](https://web.archive.org/web/20210217192740/https://github.com/yungDoom/re3/wiki/Building-on-FreeBSD)
 
 </details>
 
@@ -137,7 +137,7 @@ Assuming you have Visual Studio 2015/2017/2019:
 
 Microsoft recently discontinued its downloads of the DX9 SDK. You can download an archived version here: https://archive.org/details/dxsdk_jun10
 
-**If you choose OpenAL on Windows** You must read [Running OpenAL build on Windows](https://web.archive.org/web/20210217192855/https://github.com/GTAmodding/re3/wiki/Running-OpenAL-build-on-Windows).
+**If you choose OpenAL on Windows** You must read [Running OpenAL build on Windows](https://web.archive.org/web/20210217192855/https://github.com/yungDoom/re3/wiki/Running-OpenAL-build-on-Windows).
 </details>
 
 > :information_source: premake has an `--with-lto` option if you want the project to be compiled with Link Time Optimization.

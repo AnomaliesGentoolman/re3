@@ -5,7 +5,7 @@
 
 ## Intro
 
-In this repository you'll find the fully reversed source code for GTA III ([master](https://github.com/halpz/re3/tree/master/) branch) and GTA VC ([reVC](https://github.com/halpz/re3/tree/reVC/) branch).
+In this repository you'll find the fully reversed source code for GTA III ([re3](https://github.com/halpz/re3/tree/re3/) branch) and GTA VC ([reVC](https://github.com/halpz/re3/tree/reVC/) branch).
 
 It has been tested and works on Windows, Linux, MacOS and FreeBSD, on x86, amd64, arm and arm64.\
 Rendering is handled either by original RenderWare (D3D8)
@@ -153,7 +153,7 @@ We accept only these kinds of PRs;
 - Translation fixes, for languages original game supported
 - Code that increase maintainability  
 
-We have a [Coding Style](https://github.com/yungDoom/re3/blob/master/CODING_STYLE.md) document that isn't followed or enforced very well.
+We have a [Coding Style](https://github.com/yungDoom/re3/blob/re3/CODING_STYLE.md) document that isn't followed or enforced very well.
 
 Do not use features from C++11 or later.
 

@@ -109,10 +109,10 @@ For Linux using premake, proceed: [Building on Linux](https://web.archive.org/we
 
 Install python and conan, and then run build.
 ```
-conan export vendor/librw librw/re3@
+conan export vendor/librw librw/master@
 mkdir build
 cd build
-conan install .. re3/re3@ -if build -o re3:audio=openal -o librw:platform=gl3 -o librw:gl3_gfxlib=glfw --build missing -s re3:build_type=RelWithDebInfo -s librw:build_type=RelWithDebInfo
+conan install .. re3/master@ -if build -o re3:audio=openal -o librw:platform=gl3 -o librw:gl3_gfxlib=glfw --build missing -s re3:build_type=RelWithDebInfo -s librw:build_type=RelWithDebInfo
 conan build .. -if build -bf build -pf package
 ```
 </details>
